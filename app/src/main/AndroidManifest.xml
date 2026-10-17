@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.WebTools">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 编码 / 解码 -->
+        <activity android:name=".tools.encode.Base64Activity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.UrlEncodeActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.UnicodeActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.HexActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.Base32Activity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.HtmlEntityActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.MorseActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.encode.RadixActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 加密 / 安全 -->
+        <activity android:name=".tools.crypto.HashActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.HmacActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.PasswordGeneratorActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.UuidActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.AesActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.DesActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.crypto.RsaActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 文本 / 格式化 -->
+        <activity android:name=".tools.text.JsonActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.XmlActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.RegexActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.TextStatsActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.TextTransformActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.TimestampActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.text.DiffActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 设计 / 颜色 -->
+        <activity android:name=".tools.design.ColorActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.design.CssGradientActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.design.CssShadowActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 网络 / 请求 -->
+        <activity android:name=".tools.network.DeviceInfoActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.HttpClientActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.PageSourceActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.BrowserActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize" />
+        <activity android:name=".tools.network.UserAgentActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.StatusCodesActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.UrlParseActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.network.IpSubnetActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 前端 / 网页 -->
+        <activity android:name=".tools.web.HtmlRunnerActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.web.QrGeneratorActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.web.ImageBase64Activity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.web.JsonToKotlinActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- 系统 -->
+        <activity android:name=".tools.system.SettingsActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity android:name=".tools.system.AboutActivity" android:exported="false" android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>
