@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="brand_primary">#4E54C8</color>
+    <color name="brand_primary_light">#6C7BE8</color>
+    <color name="brand_secondary">#8E2DE2</color>
+    <color name="brand_accent">#9D5CFF</color>
+
+    <!-- Dark (default) -->
+    <color name="dark_bg">#0D0F17</color>
+    <color name="dark_bg2">#141929</color>
+    <color name="dark_surface">#171C2C</color>
+    <color name="dark_surface2">#20263C</color>
+    <color name="dark_text">#EDF0F8</color>
+    <color name="dark_subtext">#98A1BD</color>
+    <color name="dark_stroke">#283049</color>
+
+    <!-- Light -->
+    <color name="light_bg">#F1F4FB</color>
+    <color name="light_bg2">#E4E9F7</color>
+    <color name="light_surface">#FFFFFFFF</color>
+    <color name="light_surface2">#ECF0FA</color>
+    <color name="light_text">#181C28</color>
+    <color name="light_subtext">#5C6378</color>
+    <color name="light_stroke">#D9DFEF</color>
+
+    <!-- AMOLED -->
+    <color name="amoled_bg">#000000</color>
+    <color name="amoled_bg2">#0A0B10</color>
+    <color name="amoled_surface">#0C0D13</color>
+    <color name="amoled_surface2">#15161F</color>
+    <color name="amoled_text">#F0F1F6</color>
+    <color name="amoled_subtext">#848CA3</color>
+    <color name="amoled_stroke">#1E212C</color>
+
+    <!-- Category accent colors -->
+    <color name="cat_encode">#36B6A8</color>
+    <color name="cat_crypto">#E0667A</color>
+    <color name="cat_text">#5C8CE8</color>
+    <color name="cat_network">#E0A03C</color>
+    <color name="cat_web">#9D5CFF</color>
+    <color name="cat_design">#E86BB0</color>
+    <color name="cat_system">#7C8599</color>
+
+    <color name="ic_launcher_background">#14172B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

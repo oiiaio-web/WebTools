@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark (default) -->
+    <style name="Theme.WebTools" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_light</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="android:statusBarColor">@color/dark_bg</item>
+        <item name="android:navigationBarColor">@color/dark_bg</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+        <item name="cBg">@color/dark_bg</item>
+        <item name="cBg2">@color/dark_bg2</item>
+        <item name="cSurface">@color/dark_surface</item>
+        <item name="cSurface2">@color/dark_surface2</item>
+        <item name="cPrimary">@color/brand_primary_light</item>
+        <item name="cAccent">@color/brand_accent</item>
+        <item name="cText">@color/dark_text</item>
+        <item name="cSubText">@color/dark_subtext</item>
+        <item name="cStroke">@color/dark_stroke</item>
+    </style>
+
+    <!-- Light -->
+    <style name="Theme.WebTools.Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="android:statusBarColor">@color/light_bg</item>
+        <item name="android:navigationBarColor">@color/light_bg</item>
+        <item name="android:windowBackground">@color/light_bg</item>
+        <item name="cBg">@color/light_bg</item>
+        <item name="cBg2">@color/light_bg2</item>
+        <item name="cSurface">@color/light_surface</item>
+        <item name="cSurface2">@color/light_surface2</item>
+        <item name="cPrimary">@color/brand_primary</item>
+        <item name="cAccent">@color/brand_secondary</item>
+        <item name="cText">@color/light_text</item>
+        <item name="cSubText">@color/light_subtext</item>
+        <item name="cStroke">@color/light_stroke</item>
+    </style>
+
+    <!-- AMOLED pure black -->
+    <style name="Theme.WebTools.Amoled" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_light</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="android:statusBarColor">@color/amoled_bg</item>
+        <item name="android:navigationBarColor">@color/amoled_bg</item>
+        <item name="android:windowBackground">@color/amoled_bg</item>
+        <item name="cBg">@color/amoled_bg</item>
+        <item name="cBg2">@color/amoled_bg2</item>
+        <item name="cSurface">@color/amoled_surface</item>
+        <item name="cSurface2">@color/amoled_surface2</item>
+        <item name="cPrimary">@color/brand_primary_light</item>
+        <item name="cAccent">@color/brand_accent</item>
+        <item name="cText">@color/amoled_text</item>
+        <item name="cSubText">@color/amoled_subtext</item>
+        <item name="cStroke">@color/amoled_stroke</item>
+    </style>
+
+</resources>
